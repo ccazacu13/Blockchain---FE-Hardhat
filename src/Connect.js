@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import Web3 from 'web3';
+import Test from './Test';
 
 export default function Connect(){
 
@@ -21,6 +22,6 @@ export default function Connect(){
     }, []);
 
     return(
-        <div>Ceva</div>
+        <Test />
     )
 }

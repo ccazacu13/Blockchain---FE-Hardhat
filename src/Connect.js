@@ -16,6 +16,6 @@ export default function Connect(){
     }, []);
 
     return(
-        <Test web3={web3}/>
+        <div>{web3 ? <Test web3={web3}/> : <div>Loading..</div>}</div>
     )
 }

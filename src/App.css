@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #a4a6aa;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+.top-right-button {
+  position: absolute;
+  top: 10px; /* Reglați marginea superioară după preferințe */
+  right: 10px; /* Reglați marginea dreaptă după preferințe */
+}
+
+/* Opțional: stilizare suplimentară pentru buton */
+.top-right-button button {
+  padding: 10px 20px;
+  background-color: #61dafb; /* Culoarea butonului, poate fi schimbată */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  color: white;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+}
+
+.top-right-button button:hover {
+  background-color: #21a1f1; /* Culoarea la hover, poate fi schimbată */
+}
+

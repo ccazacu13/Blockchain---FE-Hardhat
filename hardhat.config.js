@@ -5,7 +5,7 @@ module.exports = {
   networks: {
     hardhat: {
       accounts: {
-        mnemonic: 'state hour chalk envelope naive obscure caught frog drink giraffe relief prosper',
+        mnemonic: 'rural coyote again mosquito oblige unit oven usage saddle trap picture inch',
       },
       chainId: 1337,
     },
